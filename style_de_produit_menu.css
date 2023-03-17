@@ -1,0 +1,16 @@
+ul li img{
+    width: 30px;
+}
+ul li{
+    text-decoration: none;
+    font-size: medium;
+}
+ul li{
+    align-items: center;
+    align-content: center;
+    position:sticky;
+}
+.image{
+    position: absolute;
+    opacity: 0.19px;
+}

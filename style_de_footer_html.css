@@ -1,0 +1,135 @@
+
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.body{
+    background-color: #f1f1ff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+/* h1{
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+} */
+.contenue {
+    flex: 1px 0 auto;
+    height: 30px;
+
+}
+.contenue p{
+    padding: 5vw 10vw;
+    text-align: justify;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    background-color: #f1f1ff;
+    color: #333;
+}
+.bloc .listes-medias img{
+    width:  20px;
+}
+.contenue-footer{
+ /* width: 1200px; */
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items:flex-start; 
+font-size: 20px;
+padding: 50px 0 10px; 
+background-color: aqua;
+margin-left: 0px;
+margin-right: 0px
+}
+.bloc{
+  width: 25%;
+    margin: 0 30px;
+
+}
+.footer-contact h3,
+.footer-horaires h3,
+.footer-services h3,
+.footer-medias h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.footer-contact p{
+    padding: 5px 0;
+}
+.listes-contact,
+.listes-horaires,
+.listes-medias,
+.listes-services{
+    list-style-type: none;
+
+}
+.listes-services li{
+    padding: 2px 0;
+}
+.listes-services a{
+    text-decoration: none;
+    color: #333;
+
+}
+.listes-services a :hover{
+    color: rgb(3, 3, 3);
+}
+.listes-medias image{
+    width: 40px;
+    margin: 10px 10px;
+}
+.listes-medias{
+    position: relative;
+    right: 10px;
+}
+.listes-medias a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+@media screen and (max-width:1300px){
+    .contenue-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc{
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1)
+    .bloc:nth-child(2){
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:800px){
+    .contenue-footer{
+        width: 320px;
+    }
+    .bloc{
+        width: 300px;
+        margin: 30px 30px ;
+    }
+    .bloc:nth-child(1)
+    .bloc:nth-child(2){
+        margin-bottom: 50px;
+    }
+    .bloc:nth-child(1){
+        margin-top: 0;
+    }
+}
+.footer-1{
+    border-radius: 20px;
+    border: #000;
+}

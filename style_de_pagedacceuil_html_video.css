@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 145px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px ;
+    padding-right:25px ;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px; 
+}
+.col-2 img {
+    width: 100%;
+    padding: 30px 0px;
+
+
+}
+.col-2 h1{
+    font-size:50px;
+    line-height: 60px;
+    margin: 25px 0px;
+
+}
+p{
+    color: #555;
+}
+.col-2 a{
+    text-decoration: none;
+    padding: 10px 30px ;
+    background-color: rgb(27, 134, 206);
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.header-section{
+    margin-top: -20px;
+    background-color: radial-gradient(#fff,#eaf2fb);
+}
+.electronic{
+    margin-top: -20px;
+    background-color: radial-gradient(#fff,#eaf2fb);
+}
+.chaussure{
+    margin-top: -20px;
+    background-color: radial-gradient(#fff,#eaf2fb);
+}
+.chemise_rouge{
+    margin-top: -20px;
+    background-color: radial-gradient(#fff,#eaf2fb);
+}
+.telephone{
+    margin-top: -20px;
+    background-color: radial-gradient(#fff,#eaf2fb);
+}
+
+.col-2 a :hover{
+    background-color: rgb(17, 94, 94);
+}
+/* style de la section des categories */
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    padding: 15px;
+    margin: auto;
+}
+.categories{
+    margin: 70px;
+
+}
+.col-3 img{
+    width: 100%;
+    transition: transform 0.5s ;
+
+}
+.container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}
+/* section des meuilleur produits */s
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px; 
+    margin: auto;
+    
+}
+.col-4 img{
+    align-items: flex-start;
+    width: 100%;
+    transition: transform 0.5s;
+
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+    padding: 15px;
+}
+
+
+.col-4 :hover{
+    transform: translateY(-5px);
+}
+.col-5 :hover{
+    transform: translateY(-5px);
+}
+.col-5{
+    flex-basis: 30%;
+    min-width: 250px;
+    padding: 15px;
+    margin: auto;
+}
+.col-5 img{
+    align-items: center;
+    width: 100%;
+    transition: transform 0.5s;
+}
+.col-10-1:hover{
+    transform: translateY(-5px);
+
+}
+.col-10-1{
+    flex-basis: 30%;
+    min-width: 100px;
+    padding: 15px;
+    margin: auto;
+
+}
+.col-10-1 img{
+    align-items: center;
+    width: 200px;
+    transition: transform 0.5s;
+}
+
+.touche h3 :hover{
+    color: aqua;
+}
+.touche h3{
+    color: rgb(246, 250, 31);
+    
+}
+.endroid h3{
+    color: rgb(2, 2, 7);
+}
+.endroid img{
+    display: flex;
+    
+}
+.endroid p {
+    color: rgb(240, 112, 150);
+}
+.telephone {
+    /* -color: #555; */
+}
+
+
+
+
+
+
+
+
+.col-7:hover{
+    transform: translateY(-5px);
+
+}
+.col-7{
+    flex-basis: 30%;
+    min-width: 100px;
+    padding: 15px;
+    margin: auto;
+
+}
+.col-7img{
+    align-items: center;
+    width: 200px;
+    transition: transform 0.5s;
+}
+/*css de scrolle des vetements t-shirt rouge */
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesimage;
+    animation-iteration-count: infinite;
+}
+#carrousel{
+    width: 348px; 
+    overflow: hidden;
+    border: 2px solid#333;
+
+
+}
+.scrol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #ddd;
+
+}
+@keyframes mesimage{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translate(-348px);
+    }
+    50%{
+        transform: translate(-696px);
+    }
+    75%{
+        transform: translate(-1044px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.telephone .container h2{
+    color: #fff;
+}
+.telephone .container a {
+    text-decoration: none;
+    color: #fff;
+}
+.telephone .container a {
+    text-decoration: none;
+    padding: 10px 30px ;
+    background-color: rgb(27, 134, 206);
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+    align-items: center;
+}
+.container a{
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+.ordinateurs .container .col-10-2 a{
+    text-decoration: none;
+    padding: 10px 30px ;
+    background-color: rgb(27, 134, 206);
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.ordinateur .container .col-10-2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+/* dessigne des ordinateurs*/
+
+.teleordinateurs .container a {
+    text-decoration: none;
+    color: #fff;
+}
+.ordinateurs .container a {
+    text-decoration: none;
+    padding: 10px 30px ;
+    background-color: rgb(27, 134, 206);
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+    align-items: center;
+}
+.container a{
+    align-items: center;
+    align-content: center;
+}
+
+
+
+/*styles du footer pre-atablies copiers coller */
+.cotainer .row .col-4 img{
+    align-items:flex-start;
+}

@@ -1,0 +1,145 @@
+.contenue_ajouter-1 .article{
+    width: 30px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 50px 0 100px;
+    
+}
+.contenue_ajouter-1 .article img{
+    width: 150%;
+    padding: 70px;
+}
+.contenue_ajouter-1 .article a{
+    padding: 70px;
+}
+.contenue_ajouter-1 .article li{
+    align-items:flex-start;
+}
+.contenue_ajouter-1 .article li:hover{
+    color: aqua;
+}
+.contenue_ajouter-1 .article a:hover{
+    color: aqua;
+}
+.contenue_ajouter-1 .article li{
+    color: rgb(214, 52, 12);
+}
+.contenue_ajouter-1 .article a{
+    color:green;
+    font-size: 20px;
+}
+h2 img{
+    width: 100px;
+    /*design contenue_ajouter-2*/
+}
+.contenue_ajouter-2 .article{
+    width: 30px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 50px 0 100px;
+    
+}
+.contenue_ajouter-2 .article img{
+    width: 150%;
+    padding: 70px;
+}
+.contenue_ajouter-2 .article a{
+    padding: 70px;
+}
+.contenue_ajouter-2 .article li{
+    align-items:flex-start;
+}
+.contenue_ajouter-2 .article li:hover{
+    color: aqua;
+}
+.contenue_ajouter-2 .article a:hover{
+    color: aqua;
+}
+.contenue_ajouter-2 .article li{
+    color: rgb(214, 52, 12);
+}
+.contenue_ajouter-2 .article a{
+    color:green;
+    font-size: 20px;
+}
+.h1 h1{
+    font-size: 50px;
+    align-items: center;
+    align-content: center;
+    margin-left: 30% ;
+    color: #e4d6d6;
+    margin-right:20%;
+}
+.h1{
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.h1 h1 :hover{
+    color: rgb(230, 188, 5);
+}
+.para a{
+    margin-left: 30%;
+}
+
+/*scroller*/
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesimage;
+    animation-iteration-count: infinite;
+}
+#carrousel-moi{
+    width: 250px; 
+    overflow: hidden;
+    border: 2px solid#333;
+
+
+}
+.scrol-moi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #ddd;
+
+}
+@keyframes mesimage{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translate(-348px);
+    }
+    50%{
+        transform: translate(-696px);
+    }
+    75%{
+        transform: translate(-1044px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.row .col-2 a {
+    margin-left: 100px;
+}
+
+body{
+    background-color: rgb(175, 236, 236);
+}
+body img{
+    border-radius: 50px;
+}
+form img{
+    width: 80px;
+    padding: 10px;
+    float: left;
+    position: relative;
+    margin-left: -20px;
+
+}

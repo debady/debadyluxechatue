@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: aqua;
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+nav ul img{
+    display: inline-block;
+    width: 100px;
+    padding:  10px 20px;
+    border-radius: 50px;
+}
+ul li {
+    color: #fff;
+    letter-spacing: 00.1rem;
+}
+.menu li{
+    float: right;
+    margin-right: 10px;
+}
+.menu{
+    margin-right: 20px;
+}
+li a{ 
+    color: rgb(12, 12, 1);
+}
+.menu li :hover{
+    color: rgb(238, 134, 49);
+}
+.navigation{
+    display: block;
+
+    
+}
+input[type="search"]{
+    font-size: 20px;
+}
+.recherche{
+    padding: 10px 20px;
+}

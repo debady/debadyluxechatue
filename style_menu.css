@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-color: aqua;
+    height: 80px;
+    margin: 10px;
+    padding: -2px;
+
+}
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li{
+    color: #fff;
+    letter-spacing: 0.1rem;
+
+}
+ul li :hover{
+    color: #ffd358;
+    text-decoration: underline;
+
+}
+.menu li{
+    float: right;
+  /*  padding: 35px; */
+    
+
+}
+.menu li a{
+    text-decoration: none;
+
+}
+form{
+    padding: 35px;
+    text-align: right;
+    position: absolute;
+}
+input [type="search"]{
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    position: relative;
+
+    
+}
+
+.header .menu a{
+    text-decoration: none;
+    color: rgb(238, 22, 22);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header .menu a :hover{
+    background-color: rgb(240, 226, 32);
+    color: blue;
+}
+.menu a :hover{
+    color: #ffd358;
+
+}

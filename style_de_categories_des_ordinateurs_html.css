@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 145px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px ;
+    padding-right:25px ;
+}
+.row{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.android .container h2{
+    align-items: center;
+}
+
+
+
+
+
+/* disigne des scrolle des ordinateurs */
+#carrousel{
+    width: 348px; 
+    overflow: hidden;
+    border: 2px solid#333;
+
+
+}
+.scrol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+
+}
+@keyframes mesimage{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translate(-348px);
+    }
+    50%{
+        transform: translate(-696px);
+    }
+    75%{
+        transform: translate(-1044px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.ordinateurs .container .entete .row img{
+    width: 40%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    border-radius: 20px;
+    height: auto;
+}
+.col-9{
+    width: 40px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    border-radius: 20px;
+    height: auto;
+}
+.row p{
+    color: rgb(252, 9, 9);
+    font-size: medium;
+}
+body {
+    align-items: center;
+    align-content: flex-start;
+}
